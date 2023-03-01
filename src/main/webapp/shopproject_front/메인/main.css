@@ -1,0 +1,70 @@
+
+/* 상단바 */
+
+header {
+    border: 1px solid red;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+header > div {
+    display: inline-block;
+    font-size: 20px;
+    
+}
+header > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 본문 */
+section{
+    border: 1px solid red;
+    height: 800px;
+    font-size: 0;
+    
+    
+}
+section > *{
+    vertical-align: top;
+    border: 1px solid red;
+    display: inline-block;
+    
+}
+
+section > article {
+    /* border 삭제후 width:80%으로 수정 */
+    width: 79%;
+    height: 100%;
+}
+
+
+/* 본문영역1(사이드, 탭) */
+.main_tab{
+    font-size: 10px;   
+    width: 20%;
+    height: 100%;
+}
+
+
+/* 본문영역2(랭킹) */
+.main_ranking{
+    font-size: 10px;
+    width: 100%;
+    height: 50%;
+}
+
+/* 본문영역3(후기) */
+.main_review{
+    font-size: 10px;
+    width: 100%;
+    height: 50%;
+}
+
+
+/* 하단바 */
+footer{
+    border: 1px solid red;
+    height: 100px;
+}
